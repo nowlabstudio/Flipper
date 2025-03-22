@@ -13,7 +13,7 @@
 // Enable quantized filterbank to save ~10KB RAM
 #define EIDSP_QUANTIZE_FILTERBANK   1
 
-#include <Flipcase_v1.2_inferencing.h>  //v1.0 is the latest tested
+#include <Flipcase_v1_inferencing.h>  //v1.0 is the latest tested
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "freertos/semphr.h"
