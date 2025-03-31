@@ -17,8 +17,12 @@ Servo myservo;
 const int servoPin = 33;   
 
 void setup() {
-  M5.begin();         
+  M5.begin(false, false, true, true); //LCD, SD, Serial, I2C         
   
+  // Battery and USB charging configuration
+  M5.Axp.SetBusPowerMode(0);        // Automatic switching between USB and battery
+  M5.Axp.SetCHGCurrent(11);         // Set charging current to 1000mA
+
   ESP32PWM::allocateTimer(0);  
   myservo.setPeriodHertz(333);  
   
