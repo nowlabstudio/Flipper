@@ -1,0 +1,225 @@
+{
+    "api": {
+        "eleven_labs_api_key": "sk_12361426642ca068e9679bea13485ee712d23a4b3bfc74e8",
+        "base_url": "https://api.elevenlabs.io/v1",
+        "tts_url": "https://api.elevenlabs.io/v1/text-to-speech",
+        "sound_gen_url": "https://api.elevenlabs.io/v1/sound-generation"
+    },
+    "keyword": {
+        "main_keyword": "cheers",
+        "context_examples": [
+            "cheers"
+        ]
+    },
+    "voices": [
+        {
+            "name": "Szilvi_US",
+            "id": "uvYnpt5PleJGcyGcUYmS",
+            "accent": "american"
+        },
+        {
+            "name": "Sarah_US",
+            "id": "158BdM9taSU2P9qaNQp9",
+            "accent": "american"
+        },
+        {
+            "name": "Arnold_US",
+            "id": "VR6AewLTigWG4xSOukaG",
+            "accent": "american"
+        },
+        {
+            "name": "Adam_US",
+            "id": "pNInz6obpgDQGcFmaJgB",
+            "accent": "american"
+        },
+        {
+            "name": "Antoni_US",
+            "id": "ErXwobaYiN019PkySvjV",
+            "accent": "american"
+        },
+        {
+            "name": "Aria_US",
+            "id": "9BWtsMINqrJLrRacOk9x",
+            "accent": "american"
+        },
+        {
+            "name": "Brian_US",
+            "id": "nPczCjzI2devNBz1zQrb",
+            "accent": "american"
+        },
+        {
+            "name": "Dorothy_UK",
+            "id": "ThT5KcBeYPX3keUQqHPh",
+            "accent": "british"
+        },
+        {
+            "name": "Elli_US",
+            "id": "MF3mGyEYCl7XYWbV9V6O",
+            "accent": "american"
+        },
+        {
+            "name": "Eric_US",
+            "id": "cjVigY5qzO86Huf0OWal",
+            "accent": "american"
+        },
+        {
+            "name": "Fin_FN",
+            "id": "D38z5RcWu1voky8WS1ja",
+            "accent": "finnish"
+        },
+        {
+            "name": "George_UK",
+            "id": "JBFqnCBsd6RMkjVDRZzb",
+            "accent": "british"
+        },
+        {
+            "name": "Joseph_UK",
+            "id": "Zlb1dXrM653N07WRdFW3",
+            "accent": "british"
+        },
+        {
+            "name": "Laura_US",
+            "id": "FGY2WhTYpPnrIDTdsKH5",
+            "accent": "american"
+        },
+        {
+            "name": "Lily_UK",
+            "id": "pFZP5JQG7iQjIQuC4Bku",
+            "accent": "british"
+        },
+        {
+            "name": "Michael_US",
+            "id": "flq6f7yk4E4fJM5XTYuZ",
+            "accent": "american"
+        },
+        {
+            "name": "Mimi_SWE",
+            "id": "zrHiDhphv9ZnVXBqCLjz",
+            "accent": "swedish"
+        },
+        {
+            "name": "Patrick_US",
+            "id": "ODq5zmih8GrVes37Dizd",
+            "accent": "american"
+        },
+        {
+            "name": "Rachel_US",
+            "id": "21m00Tcm4TlvDq8ikWAM",
+            "accent": "american"
+        },
+        {
+            "name": "Sarah2_US",
+            "id": "EXAVITQu4vr4xnSDxMaL",
+            "accent": "american"
+        },
+        {
+            "name": "Thomas_US",
+            "id": "GBv7mTt0atIp3Br8iCZE",
+            "accent": "american"
+        },
+        {
+            "name": "Will_US",
+            "id": "bIHbv24MWmeRgasZH58o",
+            "accent": "american"
+        },
+        {
+            "name": "Domi_US",
+            "id": "AZnzlk1XvdvUeBnXmlld",
+            "accent": "american"
+        },
+        {
+            "name": "Charlotte_SWE",
+            "id": "XB0fDUnXU5powFXDhCwa",
+            "accent": "swedish"
+        },
+        {
+            "name": "Callum_US",
+            "id": "N2lVS1w4EtoT3dr4eOWO",
+            "accent": "american"
+        }
+    ],
+    "emotions": [
+        {
+            "name": "neutral",
+            "description": "Semleges, hétköznapi kiejtés"
+        },
+        {
+            "name": "enthusiastic",
+            "description": "Lelkes, energikus kiejtés"
+        }
+    ],
+    "generation_params": {
+        "model_id": "eleven_multilingual_v2",
+        "stability": 0.5,
+        "similarity_boost": 0.75,
+        "style": 0.0,
+        "use_speaker_boost": true,
+        "output_format": "mp3",
+        "counts_per_voice": 30,
+        "speed": {
+            "values": [
+                0.9,
+                1.0,
+                1.1
+            ],
+            "labels": [
+                "slow",
+                "normal",
+                "fast"
+            ]
+        }
+    },
+    "background_noises": {
+        "bar": {
+            "description": "Bár/kávézó zajok",
+            "sound_gen_descriptions": [
+                "Bar ambient noise with chatter and glasses clinking in the background"
+            ]
+        },
+        "restaurant": {
+            "description": "Éttermi zajok",
+            "sound_gen_descriptions": [
+                "Restaurant ambient noise with people talking and dishes clinking"
+            ]
+        },
+        "office": {
+            "description": "Irodai háttérzajok",
+            "sound_gen_descriptions": [
+                "Office background noise with typing, occasional phone rings and quiet conversations"
+            ]
+        },
+        "cafe": {
+            "description": "Kávézó környezet",
+            "sound_gen_descriptions": [
+                "Cafe ambience with quiet chatter, coffee machines and soft music"
+            ]
+        },
+        "party": {
+            "description": "Parti hangulat",
+            "sound_gen_descriptions": [
+                "Party ambience with music, loud talking and laughter"
+            ]
+        }
+    },
+    "noise_volume": 0.65,
+    "snr_levels": [
+        {
+            "value": 15,
+            "description": "Magas jel-zaj arány, a beszéd jól érthető"
+        },
+        {
+            "value": 10,
+            "description": "Közepes jel-zaj arány, a beszéd még jól érthető"
+        },
+        {
+            "value": 5,
+            "description": "Alacsony jel-zaj arány, a beszéd nehezebben érthető"
+        }
+    ],
+    "output": {
+        "sample_rate": 16000,
+        "format": "wav",
+        "directory": "generated_speech_cheers",
+        "naming_pattern": "EL_{voice}_{number:02d}"
+    }
+}

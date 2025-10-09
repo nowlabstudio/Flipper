@@ -1,0 +1,3105 @@
+{
+    "Aria": {
+        "voice_id": "9BWtsMINqrJLrRacOk9x",
+        "name": "Aria",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "expressive",
+            "age": "middle_aged",
+            "gender": "female",
+            "use_case": "social media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Roger": {
+        "voice_id": "CwhRBWXzGAHq8TQ4Fs17",
+        "name": "Roger",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "confident",
+            "age": "middle_aged",
+            "gender": "male",
+            "use_case": "social media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Sarah": {
+        "voice_id": "EXAVITQu4vr4xnSDxMaL",
+        "name": "Sarah",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "soft",
+            "age": "young",
+            "gender": "female",
+            "use_case": "news"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Laura": {
+        "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+        "name": "Laura",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "upbeat",
+            "age": "young",
+            "gender": "female",
+            "use_case": "social media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Charlie": {
+        "voice_id": "IKne3meq5aSn9XLyUdCD",
+        "name": "Charlie",
+        "category": "premade",
+        "labels": {
+            "accent": "australian",
+            "description": "natural",
+            "age": "middle_aged",
+            "gender": "male",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "George": {
+        "voice_id": "JBFqnCBsd6RMkjVDRZzb",
+        "name": "George",
+        "category": "premade",
+        "labels": {
+            "accent": "british",
+            "description": "warm",
+            "age": "middle_aged",
+            "gender": "male",
+            "use_case": "narration"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Callum": {
+        "voice_id": "N2lVS1w4EtoT3dr4eOWO",
+        "name": "Callum",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "intense",
+            "age": "middle_aged",
+            "gender": "male",
+            "use_case": "characters"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "River": {
+        "voice_id": "SAz9YHcvj6GT2YYXdXww",
+        "name": "River",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "confident",
+            "age": "middle_aged",
+            "gender": "non-binary",
+            "use_case": "social media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Liam": {
+        "voice_id": "TX3LPaxmHKxFdv7VOQHJ",
+        "name": "Liam",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "articulate",
+            "age": "young",
+            "gender": "male",
+            "use_case": "narration"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Charlotte": {
+        "voice_id": "XB0fDUnXU5powFXDhCwa",
+        "name": "Charlotte",
+        "category": "premade",
+        "labels": {
+            "accent": "swedish",
+            "description": "seductive",
+            "age": "young",
+            "gender": "female",
+            "use_case": "characters"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Alice": {
+        "voice_id": "Xb7hH8MSUJpSbSDYk0k2",
+        "name": "Alice",
+        "category": "premade",
+        "labels": {
+            "accent": "british",
+            "description": "confident",
+            "age": "middle_aged",
+            "gender": "female",
+            "use_case": "news"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Matilda": {
+        "voice_id": "XrExE9yKIg1WjnnlVkGX",
+        "name": "Matilda",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "friendly",
+            "age": "middle_aged",
+            "gender": "female",
+            "use_case": "narration"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Will": {
+        "voice_id": "bIHbv24MWmeRgasZH58o",
+        "name": "Will",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "friendly",
+            "age": "young",
+            "gender": "male",
+            "use_case": "social media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Jessica": {
+        "voice_id": "cgSgspJ2msm6clMCkdW9",
+        "name": "Jessica",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "expressive",
+            "age": "young",
+            "gender": "female",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Eric": {
+        "voice_id": "cjVigY5qzO86Huf0OWal",
+        "name": "Eric",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "friendly",
+            "age": "middle_aged",
+            "gender": "male",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Chris": {
+        "voice_id": "iP95p4xoKVk53GoZ742B",
+        "name": "Chris",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "casual",
+            "age": "middle_aged",
+            "gender": "male",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Brian": {
+        "voice_id": "nPczCjzI2devNBz1zQrb",
+        "name": "Brian",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "deep",
+            "age": "middle_aged",
+            "gender": "male",
+            "use_case": "narration"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Daniel": {
+        "voice_id": "onwK4e9ZLuTAKqWW03F9",
+        "name": "Daniel",
+        "category": "premade",
+        "labels": {
+            "accent": "british",
+            "description": "authoritative",
+            "age": "middle_aged",
+            "gender": "male",
+            "use_case": "news"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Lily": {
+        "voice_id": "pFZP5JQG7iQjIQuC4Bku",
+        "name": "Lily",
+        "category": "premade",
+        "labels": {
+            "accent": "british",
+            "description": "warm",
+            "age": "middle_aged",
+            "gender": "female",
+            "use_case": "narration"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Bill": {
+        "voice_id": "pqHfZKP75CvOlQylNhV4",
+        "name": "Bill",
+        "category": "premade",
+        "labels": {
+            "accent": "american",
+            "description": "trustworthy",
+            "age": "old",
+            "gender": "male",
+            "use_case": "narration"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "MarcoTrox": {
+        "voice_id": "13Cuh3NuYvWOVQtLbRN8",
+        "name": "MarcoTrox - Italian Professional Voice Talent",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "classy",
+            "age": "middle_aged",
+            "gender": "male",
+            "language": "it",
+            "use_case": "narrative_story"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Shelley": {
+        "voice_id": "4CrZuIW9am7gYAxgo2Af",
+        "name": "Shelley - Clear and confident British female",
+        "category": "professional",
+        "labels": {
+            "accent": "british",
+            "descriptive": "crisp",
+            "age": "young",
+            "gender": "female",
+            "language": "en",
+            "use_case": "informative_educational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Thomas": {
+        "voice_id": "4FLkNETtL5THnClfpjpb",
+        "name": "Thomas - French Canadian (Quebec)",
+        "category": "professional",
+        "labels": {
+            "accent": "quebec",
+            "descriptive": "professional",
+            "age": "young",
+            "gender": "male",
+            "language": "fr",
+            "use_case": "informative_educational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Maxime": {
+        "voice_id": "5Qfm4RqcAer0xoyWtoHC",
+        "name": "Maxime - French Young Male",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "language": "fr",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Maxime_5d9j": {
+        "voice_id": "5d9jEFwkzN2grNaI7bw1",
+        "name": "Maxime Lavaud - French young man ",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "chill",
+            "age": "young",
+            "gender": "male",
+            "language": "fr",
+            "use_case": "social_media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Jhenny": {
+        "voice_id": "FXGrCtY3PEyfqczBAlqm",
+        "name": "Jhenny - Warm, Fluid and Smooth",
+        "category": "professional",
+        "labels": {
+            "accent": "latin american",
+            "descriptive": "gentle",
+            "age": "middle_aged",
+            "gender": "female",
+            "language": "es",
+            "use_case": "narrative_story"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Adina": {
+        "voice_id": "FvmvwvObRqIHojkEGh5N",
+        "name": "Adina - French young female",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "pleasant",
+            "age": "young",
+            "gender": "female",
+            "language": "fr",
+            "use_case": "social_media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Hope": {
+        "voice_id": "OYTbf65OHHFELVut7v2H",
+        "name": "Hope - natural conversations",
+        "category": "professional",
+        "labels": {
+            "accent": "american",
+            "descriptive": "crisp",
+            "age": "young",
+            "gender": "female",
+            "language": "en",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Andréa": {
+        "voice_id": "RCSF5YgDtAhZXpNZfGek",
+        "name": "Andréa",
+        "category": "professional",
+        "labels": {
+            "accent": "quebec",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "female",
+            "language": "fr",
+            "use_case": "informative_educational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Anet": {
+        "voice_id": "SZXidiHhq5QYe3jRboSZ",
+        "name": "Anet",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "formal",
+            "age": "young",
+            "gender": "female",
+            "language": "cs",
+            "use_case": "informative_educational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ruth": {
+        "voice_id": "YUdpWWny7k5yb4QCeweX",
+        "name": "Ruth - Professional Dutch female voiceover",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "professional",
+            "age": "young",
+            "gender": "female",
+            "language": "nl",
+            "use_case": "informative_educational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Kayla": {
+        "voice_id": "aTxZrSrp47xsP6Ot4Kgd",
+        "name": "Kayla - Urban and Casual",
+        "category": "professional",
+        "labels": {
+            "accent": "american",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "female",
+            "language": "en",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Halley": {
+        "voice_id": "eBvoGh8YGJn1xokno71w",
+        "name": "Halley",
+        "category": "professional",
+        "labels": {
+            "accent": "american",
+            "descriptive": "upbeat",
+            "age": "young",
+            "gender": "female",
+            "language": "en",
+            "use_case": "social_media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Albert": {
+        "voice_id": "f2yUVfK5jdm78zlpcZ8C",
+        "name": "Albert - Funny Cartoon Character",
+        "category": "professional",
+        "labels": {
+            "age": "young",
+            "descriptive": "intense",
+            "language": "de",
+            "gender": "male",
+            "use_case": "characters_animation"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Elena": {
+        "voice_id": "fSxb5mPM1l5zTVVtM3Vb",
+        "name": "Elena",
+        "category": "professional",
+        "labels": {
+            "accent": "sofia",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "female",
+            "language": "bg",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Laura_gC9j": {
+        "voice_id": "gC9jy9VUxaXAswovchvQ",
+        "name": "Laura Peeters",
+        "category": "professional",
+        "labels": {
+            "age": "young",
+            "descriptive": "calm",
+            "language": "nl",
+            "gender": "female",
+            "use_case": "narrative_story"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Jaimie": {
+        "voice_id": "hLnc7y4d152WGG2BQlAY",
+        "name": "Jaimie from the Netherlands - Dutch Amsterdam Voiceover - Young Male, Age 30 ",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "language": "nl",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Archie": {
+        "voice_id": "kmSVBPu7loj4ayNinwWM",
+        "name": "Archie - English teen youth",
+        "category": "professional",
+        "labels": {
+            "accent": "british",
+            "descriptive": "upbeat",
+            "age": "young",
+            "gender": "male",
+            "language": "en",
+            "use_case": "social_media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Dmitry": {
+        "voice_id": "kwajW3Xh5svCeKU5ky2S",
+        "name": "Dmitry",
+        "category": "professional",
+        "labels": {
+            "age": "young",
+            "descriptive": "casual",
+            "language": "ru",
+            "gender": "male",
+            "use_case": "social_media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Julian": {
+        "voice_id": "kzrsjZhHCumKqmkJl486",
+        "name": "Julian",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "professional",
+            "age": "middle_aged",
+            "gender": "male",
+            "language": "bg",
+            "use_case": "social_media"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Yasmin": {
+        "voice_id": "lWq4KDY8znfkV0DrK8Vb",
+        "name": "Yasmin Alves",
+        "category": "professional",
+        "labels": {
+            "accent": "brazilian",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "female",
+            "language": "pt",
+            "use_case": "narrative_story"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Alexandra": {
+        "voice_id": "pREMn4INXSs2KOPsNcsD",
+        "name": "Alexandra",
+        "category": "professional",
+        "labels": {
+            "accent": "sofia",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "female",
+            "language": "bg",
+            "use_case": "entertainment_tv"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ryan": {
+        "voice_id": "rU18Fk3uSDhmg5Xh41o4",
+        "name": "Ryan Kurk",
+        "category": "professional",
+        "labels": {
+            "accent": "american",
+            "descriptive": "pleasant",
+            "age": "young",
+            "gender": "male",
+            "language": "en",
+            "use_case": "narrative_story"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Shelby": {
+        "voice_id": "rfkTsdZrVWEVhDycUYn9",
+        "name": "Shelby",
+        "category": "professional",
+        "labels": {
+            "accent": "british",
+            "descriptive": "pleasant",
+            "age": "young",
+            "gender": "female",
+            "language": "en",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Tony": {
+        "voice_id": "u6PFSc13jWEs1Z3fZqJz",
+        "name": "Tony",
+        "category": "professional",
+        "labels": {
+            "accent": "prague",
+            "descriptive": "chill",
+            "age": "young",
+            "gender": "male",
+            "language": "cs",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Felix": {
+        "voice_id": "uM8iMoqaSe1eDaJiWfxf",
+        "name": "Felix - Smooth German Chaos",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "male",
+            "language": "de",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Szilvia": {
+        "voice_id": "uvYnpt5PleJGcyGcUYmS",
+        "name": "Szilvia",
+        "category": "cloned",
+        "labels": {
+            "language": "en"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Benjamin": {
+        "voice_id": "zAr1POVZUrr1zkX0T94t",
+        "name": "Benjamin - French",
+        "category": "professional",
+        "labels": {
+            "accent": "parisian",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "language": "fr",
+            "use_case": "informative_educational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Susanna": {
+        "voice_id": "zoHYyRSu24lsAjrjXkxu",
+        "name": "Susanna Rutkai",
+        "category": "professional",
+        "labels": {
+            "accent": "standard",
+            "descriptive": "casual",
+            "age": "middle_aged",
+            "gender": "female",
+            "language": "hu",
+            "use_case": "narrative_story"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Stefano": {
+        "voice_id": "w0EvKQngI91hTfjTVJp7",
+        "name": "Stefano",
+        "category": "cloned",
+        "labels": {
+            "language": "it"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Truong": {
+        "voice_id": "7WNWm0yUcEolHsfg5Bhk",
+        "name": "Truong Van Sang 8",
+        "category": "professional",
+        "labels": {
+            "language": "vi",
+            "descriptive": "calm",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "southern",
+            "use_case": "social_media",
+            "locale": "vi-VN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ly": {
+        "voice_id": "7hsfEc7irDn6E8br0qfw",
+        "name": "Ly Hai",
+        "category": "professional",
+        "labels": {
+            "language": "vi",
+            "descriptive": "deep",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "southern",
+            "use_case": "entertainment_tv",
+            "locale": "vi-VN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Trung": {
+        "voice_id": "ueSxRO0nLF1bj93J2hVt",
+        "name": "Trung Caha",
+        "category": "professional",
+        "labels": {
+            "language": "vi",
+            "descriptive": "crisp",
+            "accent": "northern",
+            "gender": "male",
+            "age": "middle_aged",
+            "use_case": "conversational",
+            "locale": "vi-VN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Viet": {
+        "voice_id": "1d5Bb0SMBPB10Gx6iQeu",
+        "name": "Viet DangTungDuy",
+        "category": "professional",
+        "labels": {
+            "language": "vi",
+            "descriptive": "casual",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "northern",
+            "use_case": "entertainment_tv",
+            "locale": "vi-VN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "MC": {
+        "voice_id": "M0rVwr32hdQ5UXpkI3ni",
+        "name": "MC The Hao",
+        "category": "professional",
+        "labels": {
+            "language": "vi",
+            "descriptive": "professional",
+            "age": "young",
+            "accent": "southern",
+            "gender": "male",
+            "use_case": "social_media",
+            "locale": "vi-VN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "HuyenTrang": {
+        "voice_id": "BlZK9tHPU6XXjwOSIiYA",
+        "name": "HuyenTrang",
+        "category": "professional",
+        "labels": {
+            "language": "vi",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "female",
+            "accent": "northern",
+            "use_case": "advertisement",
+            "locale": "vi-VN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ayesha": {
+        "voice_id": "0ZOhGcBopt9S6GBK8tnj",
+        "name": "Ayesha - Energetic Indian Voice",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "upbeat",
+            "age": "middle_aged",
+            "gender": "female",
+            "accent": "indian",
+            "use_case": "narrative_story",
+            "locale": "en-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Jhenny_2Lb1": {
+        "voice_id": "2Lb1en5ujrODDIqmp7F3",
+        "name": "Jhenny Antiques - Calm, Soft and Sweet",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "calm",
+            "accent": "latin american",
+            "gender": "female",
+            "age": "middle_aged",
+            "use_case": "narrative_story",
+            "locale": "es-AR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Monika": {
+        "voice_id": "1qEiC6qsybMkmnNdVMbK",
+        "name": "Monika Sogam - Hindi Modulated",
+        "category": "professional",
+        "labels": {
+            "language": "hi",
+            "descriptive": "professional",
+            "age": "middle_aged",
+            "gender": "female",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "hi-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Mark": {
+        "voice_id": "1SM7GgM6IMuvQlz2BwM3",
+        "name": "Mark - ConvoAI",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "casual",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "american",
+            "use_case": "conversational",
+            "locale": "en-US"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Kate": {
+        "voice_id": "FqTvupDLWXjo91Dte1vR",
+        "name": "Kate ",
+        "category": "professional",
+        "labels": {
+            "language": "uk",
+            "descriptive": "calm",
+            "age": "old",
+            "gender": "female",
+            "accent": "kiev",
+            "use_case": "narrative_story",
+            "locale": "uk-UA"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Dmytro": {
+        "voice_id": "NJGiMgVHtXSA1XYSuNKl",
+        "name": "Dmytro UA",
+        "category": "professional",
+        "labels": {
+            "language": "uk",
+            "descriptive": "casual",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "entertainment_tv",
+            "locale": "uk-UA"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Volodymyr": {
+        "voice_id": "pwfUObaNG29PitX1ZmwL",
+        "name": "Volodymyr Pro",
+        "category": "professional",
+        "labels": {
+            "language": "uk",
+            "descriptive": "professional",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "kiev",
+            "use_case": "conversational",
+            "locale": "uk-UA"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Adilcan": {
+        "voice_id": "NNNuG3HBwBJwqLWIs0wZ",
+        "name": "Adilcan Demirel",
+        "category": "professional",
+        "labels": {
+            "language": "tr",
+            "descriptive": "excited",
+            "age": "young",
+            "gender": "male",
+            "accent": "istanbul",
+            "use_case": "conversational",
+            "locale": "tr-TR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Muhammed": {
+        "voice_id": "6xS53dnOpKEoMXog3bZT",
+        "name": "Muhammed Baki Akyıldırım ",
+        "category": "professional",
+        "labels": {
+            "language": "tr",
+            "descriptive": "confident",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "istanbul",
+            "use_case": "informative_educational",
+            "locale": "tr-TR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Duygu": {
+        "voice_id": "MzfWWOj9g3sIKex1YFMV",
+        "name": "Duygu Eris",
+        "category": "professional",
+        "labels": {
+            "language": "tr",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "female",
+            "accent": "istanbul",
+            "use_case": "social_media",
+            "locale": "tr-TR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Mahidevran": {
+        "voice_id": "PdYVUd1CAGSXsTvZZTNn",
+        "name": "Mahidevran - Playful, Clear, Powerful Narrator",
+        "category": "professional",
+        "labels": {
+            "language": "tr",
+            "descriptive": "professional",
+            "age": "middle_aged",
+            "accent": "standard",
+            "gender": "female",
+            "use_case": "narrative_story",
+            "locale": "tr-TR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Yakup": {
+        "voice_id": "4o3sDWBlSa4mX3bXm63Z",
+        "name": "Yakup Yesil",
+        "category": "professional",
+        "labels": {
+            "language": "tr",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "istanbul",
+            "use_case": "characters_animation",
+            "locale": "tr-TR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Recep": {
+        "voice_id": "QAABwpMjK3YR9pYW5FDO",
+        "name": "Recep Sağlık",
+        "category": "professional",
+        "labels": {
+            "language": "tr",
+            "descriptive": "classy",
+            "age": "old",
+            "gender": "male",
+            "accent": "istanbul",
+            "use_case": "social_media",
+            "locale": "tr-TR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Levent": {
+        "voice_id": "H0RcYUu7yX7BzS6PGJJS",
+        "name": "Levent Kayira",
+        "category": "professional",
+        "labels": {
+            "language": "tr",
+            "descriptive": "calm",
+            "age": "middle_aged",
+            "accent": "istanbul",
+            "gender": "male",
+            "use_case": "narrative_story",
+            "locale": "tr-TR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Sencer": {
+        "voice_id": "grOPBzlhXeYv1vBYydHR",
+        "name": "Sencer",
+        "category": "professional",
+        "labels": {
+            "language": "tr",
+            "descriptive": "professional",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "istanbul",
+            "use_case": "social_media",
+            "locale": "tr-TR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Solo": {
+        "voice_id": "wxO8X3gb1l2WXZiKTtj6",
+        "name": "Solo",
+        "category": "professional",
+        "labels": {
+            "language": "tr",
+            "descriptive": "pleasant",
+            "age": "young",
+            "gender": "male",
+            "accent": "istanbul",
+            "use_case": "informative_educational",
+            "locale": "tr-TR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Aaira": {
+        "voice_id": "1XNFRxE3WBB7iI0jnm7p",
+        "name": "Aaira - Calm & Conversational Voice",
+        "category": "professional",
+        "labels": {
+            "language": "ta",
+            "descriptive": "modulated",
+            "age": "young",
+            "gender": "female",
+            "accent": "standard",
+            "use_case": "conversational",
+            "locale": "ta-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ramaa": {
+        "voice_id": "8J24wCDJGSNy9xjbiMla",
+        "name": "Ramaa – Energetic Conversational Tamil",
+        "category": "professional",
+        "labels": {
+            "language": "ta",
+            "descriptive": "modulated",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "conversational",
+            "locale": "ta-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ashwin": {
+        "voice_id": "yt40uMsmnhVftG8ngHsz",
+        "name": "Ashwin - Relatable Tamil Voice",
+        "category": "professional",
+        "labels": {
+            "language": "ta",
+            "descriptive": "upbeat",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "conversational",
+            "locale": "ta-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Maneesh": {
+        "voice_id": "pTM0m0egrCpo5i9b1gpo",
+        "name": "Maneesh - Upbeat, Professional & Friendly",
+        "category": "professional",
+        "labels": {
+            "language": "ta",
+            "descriptive": "upbeat",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "social_media",
+            "locale": "ta-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ramaa_ZhJ5": {
+        "voice_id": "ZhJ5LanYnCmLKQUXvsV7",
+        "name": "Ramaa – Energetic Tamil Narrator",
+        "category": "professional",
+        "labels": {
+            "language": "ta",
+            "descriptive": "upbeat",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "ta-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Mukundan": {
+        "voice_id": "JL7VCc7O6rY87Cfz9kIO",
+        "name": "Mukundan - Corporate Narrations",
+        "category": "professional",
+        "labels": {
+            "language": "ta",
+            "descriptive": "deep",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "ta-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Sridhama": {
+        "voice_id": "ktIdXisRrub2VKRszryF",
+        "name": "Sridhama - Tamil Book Narrator ",
+        "category": "professional",
+        "labels": {
+            "language": "ta",
+            "descriptive": "professional",
+            "age": "middle_aged",
+            "gender": "female",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "ta-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Vani": {
+        "voice_id": "upqptL1FRsrohjTgQOHf",
+        "name": "Vani - Storytelling Voice",
+        "category": "professional",
+        "labels": {
+            "language": "ta",
+            "descriptive": "modulated",
+            "age": "middle_aged",
+            "gender": "female",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "ta-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Madsri": {
+        "voice_id": "Q9XUbaP7Z0Az8OW9CyRg",
+        "name": "Madsri - Smooth Audio Books",
+        "category": "professional",
+        "labels": {
+            "language": "ta",
+            "descriptive": "gentle",
+            "age": "middle_aged",
+            "gender": "female",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "ta-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "VietNam": {
+        "voice_id": "3VnrjnYrskPMDsapTr8X",
+        "name": "VietNam DangTungDuy 2",
+        "category": "professional",
+        "labels": {
+            "language": "vi",
+            "descriptive": "calm",
+            "age": "middle_aged",
+            "accent": "northern",
+            "gender": "male",
+            "use_case": "entertainment_tv",
+            "locale": "vi-VN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Jonas,": {
+        "voice_id": "e6OiUVixGLmvtdn2GJYE",
+        "name": "Jonas, calm & informative Swedish voice",
+        "category": "professional",
+        "labels": {
+            "language": "sv",
+            "descriptive": "upbeat",
+            "age": "middle_aged",
+            "gender": "male",
+            "use_case": "advertisement",
+            "locale": "sv-SE"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Sanna": {
+        "voice_id": "4xkUqaR9MYOJHoaC1Nak",
+        "name": "Sanna Hartfield - Swedish Conversational",
+        "category": "professional",
+        "labels": {
+            "language": "sv",
+            "descriptive": "modulated",
+            "age": "middle_aged",
+            "gender": "female",
+            "accent": "stockholm",
+            "use_case": "conversational",
+            "locale": "sv-SE"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Sanna_ZSHz": {
+        "voice_id": "ZSHzpa6aUvhjzShiBmYw",
+        "name": "Sanna Hartfield - Sassy Swedish ",
+        "category": "professional",
+        "labels": {
+            "language": "sv",
+            "descriptive": "sassy",
+            "age": "middle_aged",
+            "gender": "female",
+            "accent": "stockholm",
+            "use_case": "entertainment_tv",
+            "locale": "sv-SE"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Oxley": {
+        "voice_id": "2gPFXx8pN3Avh27Dw5Ma",
+        "name": "Oxley - Evil Character",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "raspy",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "american",
+            "use_case": "characters_animation",
+            "locale": "en-US"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ca": {
+        "voice_id": "2wMoasbnkroyeaj9FYxI",
+        "name": "Ca Dao",
+        "category": "professional",
+        "labels": {
+            "language": "vi",
+            "descriptive": "cute",
+            "age": "young",
+            "gender": "female",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "vi-VN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Tommy": {
+        "voice_id": "6eknYWL7D5Z4nRkDy15t",
+        "name": "Tommy Thunstroem",
+        "category": "professional",
+        "labels": {
+            "language": "sv",
+            "descriptive": "professional",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "stockholm",
+            "use_case": "informative_educational",
+            "locale": "sv-SE"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Flavia": {
+        "voice_id": "kvVjNZvtnCv3Sl1Hr70T",
+        "name": "Flavia - Conversational & Natural",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "female",
+            "accent": "peninsular",
+            "use_case": "conversational",
+            "locale": "es-ES"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Cristian": {
+        "voice_id": "nNS8uylvF9GBWVSiIt5h",
+        "name": "Cristian Cornejo",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "confident",
+            "age": "middle_aged",
+            "accent": "chilean",
+            "gender": "male",
+            "use_case": "social_media",
+            "locale": "es-CL"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Leo": {
+        "voice_id": "Ux2YbCNfurnKHnzlBHGX",
+        "name": "Leo",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "crisp",
+            "age": "young",
+            "gender": "male",
+            "accent": "colombian",
+            "use_case": "narrative_story",
+            "locale": "es-CO"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Damian": {
+        "voice_id": "I0RpMYnjlWe6hUgHLXrb",
+        "name": "Damian - Suspense - Thrill - Horror - Tense - Scary",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "confident",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "peninsular",
+            "use_case": "narrative_story",
+            "locale": "es-ES"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Bernat": {
+        "voice_id": "jadd0g0NRgNgE8nt4ofn",
+        "name": "Bernat Casañas",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "male",
+            "accent": "peninsular",
+            "use_case": "conversational",
+            "locale": "es-ES"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ricardo": {
+        "voice_id": "7imL5gCghUGRIJcFUust",
+        "name": "Ricardo",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "male",
+            "accent": "latin american",
+            "use_case": "narrative_story",
+            "locale": "es-AR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Amelia": {
+        "voice_id": "uDhfdG2VwEjWZ4JYzggn",
+        "name": "Amelia - Narrations",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "chill",
+            "age": "young",
+            "accent": "latin american",
+            "gender": "female",
+            "use_case": "narrative_story",
+            "locale": "es-AR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "David": {
+        "voice_id": "y6WtESLj18d0diFRruBs",
+        "name": "David Martin - 2",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "deep",
+            "age": "young",
+            "gender": "male",
+            "accent": "peninsular",
+            "use_case": "informative_educational",
+            "locale": "es-ES"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Mario": {
+        "voice_id": "tomkxGQGz4b1kE0EM722",
+        "name": "Mario",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "excited",
+            "age": "young",
+            "gender": "male",
+            "accent": "latin american",
+            "use_case": "conversational",
+            "locale": "es-AR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Andrea": {
+        "voice_id": "qHkrJuifPpn95wK3rm2A",
+        "name": "Andrea",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "female",
+            "accent": "latin american",
+            "use_case": "conversational",
+            "locale": "es-AR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Laura_yiWE": {
+        "voice_id": "yiWEefwu5z3DQCM79clN",
+        "name": "Laura López",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "casual",
+            "age": "young",
+            "accent": "peninsular",
+            "gender": "female",
+            "use_case": "social_media",
+            "locale": "es-ES"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "David_jtfx": {
+        "voice_id": "jtfxplhZxnBzQICVwoQn",
+        "name": "David Martin. Character",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "casual",
+            "age": "young",
+            "accent": "peninsular",
+            "gender": "male",
+            "use_case": "narrative_story",
+            "locale": "es-ES"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Andromeda": {
+        "voice_id": "Gyqu9jCJup6lkiLgiu0l",
+        "name": "Andromeda Thunders",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "female",
+            "accent": "latin american",
+            "use_case": "narrative_story",
+            "locale": "es-AR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Alex": {
+        "voice_id": "dy2OtpAv7rTroA3VBRUd",
+        "name": "Alex Comunicando",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "male",
+            "accent": "latin american",
+            "use_case": "narrative_story",
+            "locale": "es-AR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Santiago": {
+        "voice_id": "w7IU2bIH6xHcyfkUUWi3",
+        "name": "Santiago",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "confident",
+            "age": "middle_aged",
+            "gender": "male",
+            "accent": "latin american",
+            "use_case": "narrative_story",
+            "locale": "es-AR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Alejandro": {
+        "voice_id": "byWOh4ohcovt7I8koF2I",
+        "name": "Alejandro – The Inspiring Narrator",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "latin american",
+            "use_case": "narrative_story",
+            "locale": "es-AR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Jean": {
+        "voice_id": "4p5WXd3ZuWR9pPtRQuxC",
+        "name": "Jean Petit - jeune",
+        "category": "professional",
+        "labels": {
+            "language": "fr",
+            "descriptive": "serious",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "fr-FR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Haseeb": {
+        "voice_id": "w4Z9gYJrajAuQmheNbVn",
+        "name": "Haseeb - Canadian Narration",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "pleasant",
+            "age": "young",
+            "accent": "canadian",
+            "gender": "male",
+            "use_case": "narrative_story",
+            "locale": "en-CA"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "": {
+        "voice_id": "5asM3ZxsegvXfXI5vqKQ",
+        "name": " Bogdan - Advertising",
+        "category": "professional",
+        "labels": {
+            "language": "ro",
+            "descriptive": "upbeat",
+            "age": "young",
+            "accent": "standard",
+            "gender": "male",
+            "use_case": "social_media",
+            "locale": "ro-RO"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Saira": {
+        "voice_id": "vghiSqG5ezdhd8F3tKAD",
+        "name": "Saira - Young Casual Voice",
+        "category": "professional",
+        "labels": {
+            "language": "hi",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "female",
+            "accent": "standard",
+            "use_case": "conversational",
+            "locale": "hi-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Prinz": {
+        "voice_id": "tIsjSw3zL3puN5800Bxh",
+        "name": "Prinz Pricklig - Whispering Sparkling and Crisp ",
+        "category": "professional",
+        "labels": {
+            "language": "de",
+            "descriptive": "whispery",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "entertainment_tv",
+            "locale": "de-DE"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Finn": {
+        "voice_id": "vBKc2FfBKJfcZNyEt1n6",
+        "name": "Finn",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "upbeat",
+            "age": "young",
+            "gender": "male",
+            "accent": "american",
+            "use_case": "conversational",
+            "locale": "en-US"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ana": {
+        "voice_id": "rCmVtv8cYU60uhlsOo1M",
+        "name": "Ana",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "upbeat",
+            "age": "young",
+            "gender": "female",
+            "accent": "british",
+            "use_case": "narrative_story",
+            "locale": "en-GB"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Johnny": {
+        "voice_id": "7tRwuZTD1EWi6nydVerp",
+        "name": "Johnny Boy - Action Movie Narrator",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "hyped",
+            "age": "young",
+            "gender": "male",
+            "accent": "american",
+            "use_case": "narrative_story",
+            "locale": "en-US"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "CarterMotivational": {
+        "voice_id": "6O8E1UOlJbvkhJDpV0aB",
+        "name": "CarterMotivational",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "male",
+            "accent": "american",
+            "use_case": "conversational",
+            "locale": "en-US"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Johnny_8JVb": {
+        "voice_id": "8JVbfL6oEdmuxKn5DK2C",
+        "name": "Johnny Kid  - Serious",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "british",
+            "use_case": "narrative_story",
+            "locale": "en-GB"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Borges": {
+        "voice_id": "9pDzHy2OpOgeXM8SeL0t",
+        "name": "Borges",
+        "category": "professional",
+        "labels": {
+            "language": "pt",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "male",
+            "accent": "brazilian",
+            "use_case": "entertainment_tv",
+            "locale": "pt-BR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ema": {
+        "voice_id": "JU0J0uWqRHcz1YZUVXTE",
+        "name": "Ema - Professional Persuasive Informative Journalism Female Voice",
+        "category": "professional",
+        "labels": {
+            "language": "ro",
+            "descriptive": "serious",
+            "age": "young",
+            "gender": "female",
+            "accent": "standard",
+            "use_case": "informative_educational",
+            "locale": "ro-RO"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Rener": {
+        "voice_id": "JNI7HKGyqNaHqfihNoCi",
+        "name": "Rener",
+        "category": "professional",
+        "labels": {
+            "language": "pt",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "brazilian",
+            "use_case": "conversational",
+            "locale": "pt-BR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Otto": {
+        "voice_id": "ycxdm1PRMs962FxyyuJ0",
+        "name": "Otto de La Luna",
+        "category": "professional",
+        "labels": {
+            "language": "pt",
+            "descriptive": "professional",
+            "age": "young",
+            "gender": "male",
+            "accent": "brazilian",
+            "use_case": "characters_animation",
+            "locale": "pt-BR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Lax2": {
+        "voice_id": "l88WmPeLH7L0O0VA9lqm",
+        "name": "Lax2",
+        "category": "professional",
+        "labels": {
+            "language": "pt",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "male",
+            "accent": "brazilian",
+            "use_case": "narrative_story",
+            "locale": "pt-BR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Wesley": {
+        "voice_id": "WFSxKvz27RguNRD3Phoq",
+        "name": "Wesley Bessa ",
+        "category": "professional",
+        "labels": {
+            "language": "pt",
+            "age": "young",
+            "accent": "brazilian",
+            "gender": "male",
+            "use_case": "characters_animation",
+            "locale": "pt-BR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Carla": {
+        "voice_id": "m151rjrbWXbBqyq56tly",
+        "name": "Carla - Institutional",
+        "category": "professional",
+        "labels": {
+            "language": "pt",
+            "descriptive": "professional",
+            "age": "young",
+            "accent": "brazilian",
+            "gender": "female",
+            "use_case": "informative_educational",
+            "locale": "pt-BR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Oliver": {
+        "voice_id": "ELipIT4gf7mqOUIdVqNN",
+        "name": "Oliver Brown",
+        "category": "professional",
+        "labels": {
+            "language": "pl",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "social_media",
+            "locale": "pl-PL"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Hanna": {
+        "voice_id": "NacdHGUYR1k3M0FAbAia",
+        "name": "Hanna",
+        "category": "professional",
+        "labels": {
+            "language": "pl",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "female",
+            "accent": "mazovian",
+            "use_case": "social_media",
+            "locale": "pl-PL"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Wiktor": {
+        "voice_id": "Mmjvne5i15kUnfr4fQF3",
+        "name": "Wiktor - Engaging Warmth",
+        "category": "professional",
+        "labels": {
+            "language": "pl",
+            "descriptive": "formal",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "conversational",
+            "locale": "pl-PL"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Szymon": {
+        "voice_id": "ZUdFQHf8lAj4o7hiHvbE",
+        "name": "Szymon",
+        "category": "professional",
+        "labels": {
+            "language": "pl",
+            "descriptive": "chill",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "conversational",
+            "locale": "pl-PL"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ignacius": {
+        "voice_id": "C1DBnkwmDIzoLOPlBvSg",
+        "name": "Ignacius",
+        "category": "professional",
+        "labels": {
+            "language": "pl",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "male",
+            "accent": "mazovian",
+            "use_case": "conversational",
+            "locale": "pl-PL"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Kamien": {
+        "voice_id": "Bx2lBwIZJBilRBVc3AGO",
+        "name": "Kamien Stulecia",
+        "category": "professional",
+        "labels": {
+            "language": "pl",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "pl-PL"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ned": {
+        "voice_id": "WNPU2f2Gr5PpDLI9wPbq",
+        "name": "Ned - Nutrition and Fitness Expert",
+        "category": "professional",
+        "labels": {
+            "language": "en",
+            "descriptive": "mature",
+            "age": "young",
+            "gender": "male",
+            "accent": "american",
+            "use_case": "informative_educational",
+            "locale": "en-US"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Afifah": {
+        "voice_id": "UcqZLa941Kkt8ZhEEybf",
+        "name": "Afifah",
+        "category": "professional",
+        "labels": {
+            "language": "ms",
+            "descriptive": "crisp",
+            "age": "young",
+            "gender": "female",
+            "accent": "malaysian",
+            "use_case": "advertisement",
+            "locale": "ms-MY"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Andi": {
+        "voice_id": "TMvmhlKUioQA4U7LOoko",
+        "name": "Andi",
+        "category": "professional",
+        "labels": {
+            "language": "id",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "id-ID"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Jonathan": {
+        "voice_id": "QC3gSHMyKh8m20lGyUNZ",
+        "name": "Jonathan",
+        "category": "professional",
+        "labels": {
+            "language": "id",
+            "descriptive": "chill",
+            "age": "young",
+            "accent": "standard",
+            "gender": "male",
+            "use_case": "social_media",
+            "locale": "id-ID"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Mahaputra": {
+        "voice_id": "v70fYBHUOrHA3AKIBjPq",
+        "name": "Mahaputra",
+        "category": "professional",
+        "labels": {
+            "language": "id",
+            "descriptive": "formal",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "informative_educational",
+            "locale": "id-ID"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Dakocan": {
+        "voice_id": "plgKUYgnlZ1DCNh54DwJ",
+        "name": "Dakocan",
+        "category": "professional",
+        "labels": {
+            "language": "id",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "social_media",
+            "locale": "id-ID"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ami": {
+        "voice_id": "I8CjX5UAVryGmxXzlF6m",
+        "name": "Ami",
+        "category": "professional",
+        "labels": {
+            "language": "id",
+            "age": "young",
+            "accent": "standard",
+            "gender": "female",
+            "use_case": "advertisement",
+            "locale": "id-ID"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Jin": {
+        "voice_id": "Pq1zjNuS9JdNDV2mfOJt",
+        "name": "Jin",
+        "category": "professional",
+        "labels": {
+            "language": "id",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "id-ID"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Fathur": {
+        "voice_id": "2k2NyISF1WNbjiJRa66a",
+        "name": "Fathur",
+        "category": "professional",
+        "labels": {
+            "language": "id",
+            "descriptive": "calm",
+            "age": "young",
+            "accent": "standard",
+            "gender": "male",
+            "use_case": "narrative_story",
+            "locale": "id-ID"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Dhani": {
+        "voice_id": "20ptB7Wn4Q2sMkAxK1qK",
+        "name": "Dhani",
+        "category": "professional",
+        "labels": {
+            "language": "id",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "id-ID"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Zephlyn": {
+        "voice_id": "3mAVBNEqop5UbHtD8oxQ",
+        "name": "Zephlyn",
+        "category": "professional",
+        "labels": {
+            "language": "id",
+            "descriptive": "calm",
+            "age": "young",
+            "gender": "male",
+            "accent": "balinese",
+            "use_case": "narrative_story",
+            "locale": "id-ID"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Madlen": {
+        "voice_id": "Jv2zcgjn9Qu0uNMKJjb1",
+        "name": "Madlen",
+        "category": "professional",
+        "labels": {
+            "language": "el",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "female",
+            "accent": "aegean",
+            "use_case": "conversational"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Niki": {
+        "voice_id": "wykE1oPxFaMrxdpOtFt6",
+        "name": "Niki - native Greek female ",
+        "category": "professional",
+        "labels": {
+            "language": "el",
+            "descriptive": "gentle",
+            "age": "young",
+            "accent": "standard",
+            "gender": "female",
+            "use_case": "informative_educational",
+            "locale": "el-GR"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Ava": {
+        "voice_id": "AnvlJBAqSLDzEevYr9Ap",
+        "name": "Ava - youthful and expressive German female voice",
+        "category": "professional",
+        "labels": {
+            "language": "de",
+            "descriptive": "pleasant",
+            "age": "young",
+            "gender": "female",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "de-DE"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Raju": {
+        "voice_id": "eyVoIoi3vo6sJoHOKgAc",
+        "name": "Raju - Top Customer Care Voice",
+        "category": "professional",
+        "labels": {
+            "language": "hi",
+            "descriptive": "formal",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "conversational",
+            "locale": "hi-IN"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Magyar": {
+        "voice_id": "TumdjBNWanlT3ysvclWh",
+        "name": "Magyar Férfi - Hungarian Male",
+        "category": "professional",
+        "labels": {
+            "language": "hu",
+            "descriptive": "casual",
+            "age": "young",
+            "gender": "male",
+            "accent": "standard",
+            "use_case": "narrative_story",
+            "locale": "hu-HU"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Efrayn": {
+        "voice_id": "1MxuWc12WPRxDkgfT3kj",
+        "name": "Efrayn",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "modulated",
+            "age": "young",
+            "gender": "male",
+            "accent": "peninsular",
+            "use_case": "characters_animation",
+            "locale": "es-ES"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    },
+    "Lumina": {
+        "voice_id": "x5IDPSl4ZUbhosMmVFTk",
+        "name": "Lumina - Clara & Natural",
+        "category": "professional",
+        "labels": {
+            "language": "es",
+            "descriptive": "confident",
+            "age": "young",
+            "gender": "female",
+            "accent": "colombian",
+            "use_case": "informative_educational",
+            "locale": "es-CO"
+        },
+        "settings": {
+            "stability": 0.5,
+            "similarity_boost": 0.75,
+            "style": 0.0,
+            "use_speaker_boost": true,
+            "speed": 1.0
+        },
+        "enabled": true
+    }
+}

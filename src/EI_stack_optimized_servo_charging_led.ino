@@ -8,6 +8,7 @@
  * - Robust buffer handling with semaphores
  * - Proper shutdown implementation
  * - Non-blocking servo control with separate task
+ * - Battery charging monitoring with LED feedback (v1.2)
  */
 
 // Enable quantized filterbank to save ~10KB RAM
@@ -22,6 +23,7 @@
 #include <ESP32Servo.h>
 #include <ESP32PWM.h>
 #include <M5Core2.h>
+#include "BatteryMonitor.h" // Include the battery monitor
 
 // Pin definitions for I2S interface
 #define CONFIG_I2S_BCK_PIN     12
@@ -71,6 +73,7 @@ static const uint32_t sample_buffer_size = 2048;
 static signed short sampleBuffer[sample_buffer_size];
 static bool debug_nn = false; // Set this to true to see features generated from raw signal
 static volatile bool record_status = true;
+static bool inference_enabled = true; // Flag to control inference processing
 
 // Function prototypes
 static bool microphone_inference_start(uint32_t n_samples);
@@ -90,13 +93,12 @@ void setup()
     Serial.begin(115200);
     M5.begin(false, false, true, true); //LCD, SD, Serial, I2C
     
-    // Battery and USB charging configuration
-    M5.Axp.SetBusPowerMode(0);        // Automatic switching between USB and battery
-    M5.Axp.SetCHGCurrent(11);         // Set charging current to 1000mA
-    M5.Axp.SetLed(0);
+    // Initialize battery monitoring
+    batteryMonitorInit();
+    
     // Wait for USB connection if needed
     while (!Serial);
-    Serial.println("Edge Impulse Inferencing Demo - Optimized Version with Servo Control");
+    Serial.println("Edge Impulse Inferencing Demo - Optimized Version v1.2 with Battery Monitoring");
 
     // Display inferencing settings
     ei_printf("Inferencing settings:\n");
@@ -159,63 +161,107 @@ void setup()
  */
 void loop()
 {
-    // Record audio from microphone
-    bool m = microphone_inference_record();
-    if (!m) {
-        ei_printf("ERR: Failed to record audio...\n");
-        return;
-    }
-
-    // Set up signal for classifier
-    signal_t signal;
-    signal.total_length = EI_CLASSIFIER_RAW_SAMPLE_COUNT;
-    signal.get_data = &microphone_audio_signal_get_data;
-    ei_impulse_result_t result = { 0 };
-
-    // Run the classifier
-    EI_IMPULSE_ERROR r = run_classifier(&signal, &result, debug_nn);
-    if (r != EI_IMPULSE_OK) {
-        ei_printf("ERR: Failed to run classifier (%d)\n", r);
-        return;
-    }
-
-    // Print the predictions
-    ei_printf("Predictions ");
-    ei_printf("(DSP: %d ms., Classification: %d ms., Anomaly: %d ms.)",
-        result.timing.dsp, result.timing.classification, result.timing.anomaly);
-    ei_printf(": \n");
+    // Update battery status
+    batteryMonitorUpdate();
     
-    // Find highest prediction and its index
-    float highest_value = 0;
-    size_t highest_index = 0;
+    // Check charging state to control inference
+    BatteryState batteryState = getBatteryState();
     
-    for (size_t ix = 0; ix < EI_CLASSIFIER_LABEL_COUNT; ix++) {
-        float value = result.classification[ix].value;
-        ei_printf("    %s: ", result.classification[ix].label);
-        ei_printf_float(value);
-        ei_printf("\n");
+    // Disable inference while charging
+    if (batteryState == BATTERY_CHARGING || batteryState == BATTERY_CHARGED) {
+        inference_enabled = false;
+    } else {
+        inference_enabled = true;
+    }
+    
+    // Only run inference if enabled
+    if (inference_enabled) {
+        // Record audio from microphone
+        bool m = microphone_inference_record();
+        if (!m) {
+            ei_printf("ERR: Failed to record audio...\n");
+            return;
+        }
+    
+        // Set up signal for classifier
+        signal_t signal;
+        signal.total_length = EI_CLASSIFIER_RAW_SAMPLE_COUNT;
+        signal.get_data = &microphone_audio_signal_get_data;
+        ei_impulse_result_t result = { 0 };
+    
+        // Run the classifier
+        EI_IMPULSE_ERROR r = run_classifier(&signal, &result, debug_nn);
+        if (r != EI_IMPULSE_OK) {
+            ei_printf("ERR: Failed to run classifier (%d)\n", r);
+            return;
+        }
+    
+        // Print the predictions
+        ei_printf("Predictions ");
+        ei_printf("(DSP: %d ms., Classification: %d ms., Anomaly: %d ms.)",
+            result.timing.dsp, result.timing.classification, result.timing.anomaly);
+        ei_printf(": \n");
         
-        if (value > highest_value) {
-            highest_value = value;
-            highest_index = ix;
+        // Find highest prediction and its index
+        float highest_value = 0;
+        size_t highest_index = 0;
+        
+        for (size_t ix = 0; ix < EI_CLASSIFIER_LABEL_COUNT; ix++) {
+            float value = result.classification[ix].value;
+            ei_printf("    %s: ", result.classification[ix].label);
+            ei_printf_float(value);
+            ei_printf("\n");
+            
+            if (value > highest_value) {
+                highest_value = value;
+                highest_index = ix;
+            }
+        }
+        
+        // Check if prediction exceeds threshold and trigger servo
+        if (highest_index == 0 && highest_value > 0.45) {       //not too mutch confidence, good balance
+            ei_printf("Triggering servo movement, confidence: ");
+            ei_printf_float(highest_value);
+            ei_printf("\n");
+            
+            // Trigger servo via queue system (non-blocking)
+            trigger_servo(2000);
+        }
+        
+    #if EI_CLASSIFIER_HAS_ANOMALY == 1
+        ei_printf("    anomaly score: ");
+        ei_printf_float(result.anomaly);
+        ei_printf("\n");
+    #endif
+    } else {
+        // When charging, just update the battery status periodically
+        delay(100);
+        
+        // Print battery statistics every 5 seconds
+        static unsigned long lastBatteryPrintTime = 0;
+        const unsigned long BATTERY_PRINT_INTERVAL = 5000; // 5 seconds
+        
+        unsigned long currentTime = millis();
+        if (currentTime - lastBatteryPrintTime >= BATTERY_PRINT_INTERVAL) {
+            float batVoltage = M5.Axp.GetBatVoltage();
+            float batCurrent = M5.Axp.GetBatCurrent();
+            
+            ei_printf("Battery: %.2fV, Current: %.3fA, ", batVoltage, batCurrent);
+            
+            if (batteryState == BATTERY_CHARGING) {
+                ei_printf("Status: Charging\n");
+            } else if (batteryState == BATTERY_CHARGED) {
+                ei_printf("Status: Fully charged\n");
+            } else {
+                ei_printf("Status: Discharging\n");
+            }
+            
+            lastBatteryPrintTime = currentTime;
         }
     }
     
-    // Check if prediction exceeds threshold and trigger servo
-    if (highest_index == 0 && highest_value > 0.45) {       //not too mutch confidence, good balance
-        ei_printf("Triggering servo movement, confidence: ");
-        ei_printf_float(highest_value);
-        ei_printf("\n");
-        
-        // Trigger servo via queue system (non-blocking)
-        trigger_servo(2000);
-    }
-    
-#if EI_CLASSIFIER_HAS_ANOMALY == 1
-    ei_printf("    anomaly score: ");
-    ei_printf_float(result.anomaly);
-    ei_printf("\n");
-#endif
+    // Process M5 button events
+    M5.update();
 }
 
 /**
